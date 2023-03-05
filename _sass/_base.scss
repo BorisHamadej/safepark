@@ -45,6 +45,10 @@ li {
   display: block
 }
 
+li.nostyle {
+  list-style-type: none;
+}
+
 li:before {
   content: counters(item, ".") " ";
   counter-increment: item
