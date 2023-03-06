@@ -45,11 +45,7 @@ li {
   display: block
 }
 
-.collapse .navbar-collapse li.nostyle {
-  list-style-type: none !important
-}
-
-li:before {
+.ordered-list ol li:before {
   content: counters(item, ".") " ";
   counter-increment: item
 }
