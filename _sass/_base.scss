@@ -45,8 +45,8 @@ li {
   display: block
 }
 
-li.nostyle {
-  list-style-type: none;
+.collapse navbar-collapse li.nostyle {
+  list-style-type: none !important
 }
 
 li:before {
